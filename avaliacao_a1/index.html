@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <script src="app.js"></script>
+
+    <title>Aulas de dança</title>
+</head>
+
+<body>
+    <!-- Menu de Navegação -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Ritmo e Movimento</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#servicos">Serviços</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#empresa">Empresa</a>
+        </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+          </li>
+      </ul>
+  </div>
+</nav>
+
+<!-- Carrossel da Página Inicial -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="gaucha_carrossel.jpg" alt="" width="200" height="600">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="rua_carrossel.jpg" alt="" width="200" height="600">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="sapateado_carrossel.jpg" alt=""width="200" height="600">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Próximo</span>
+  </a>
+</div>
+
+
+<!-- Catálogo de Serviços -->
+<section id="servicos" class="container mt-4">
+  <h2>Nossos Serviços</h2>
+  <div class="row">
+      <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+              <div class="card-body">
+                  <h3>Aulas de dança gaúcha</h3>
+                  <p class="card-text">Aulas de dança gaúcha e seus ritmos.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                      <span class="text-muted">R$90</span>
+                      <a href="servico1.html" class="btn btn-sm btn-outline-secondary">Solicitar Orçamento</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-body">
+              <h3>Aulas de dança de rua</h3>
+              <p class="card-text">Aulas de dança de rua e seus estilos.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                  <span class="text-muted">R$120</span>
+                  <a href="servico2.html" class="btn btn-sm btn-outline-secondary">Solicitar Orçamento</a>
+              </div>
+          </div>
+      </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-body">
+              <h3>Aulas de sapateado</h3>
+              <p class="card-text">Aulas de sapateado.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                  <span class="text-muted">R$80</span>
+                  <a href="servico3.html" class="btn btn-sm btn-outline-secondary">Solicitar Orçamento</a>
+              </div>
+          </div>
+      </div>
+      </div>
+  </div>
+</section>
+<!-- Seção da Empresa -->
+<section id="empresa" class="container mt-4">
+  <div class="container">
+      <h2 class="text-center">Sobre Nós</h2>
+      <div class="row mt-4">
+          <div class="col-md-6">
+              <h3>Ritmo e Movimento</h3>
+              <p>Somos uma empresa dedicada a oferecer aulas de dança de alta qualidade para nossos clientes.</p>
+              
+              <h3>Informações de Contato</h3>
+              <address>
+                  <strong>Ritmo e Movimento</strong><br>
+                  Avenida Anita Garibaldi, 51 - Centro<br>
+                  CEP: 89770-000<br>
+                  Cidade: Seara - SC
+              </address>
+              </p>
+          </div>
+          <div class="col-md-6">
+              <!-- Google Maps -->
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d887.5323530295346!2d-52.31035325157149!3d-27.152218195286256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e49906140a4aff%3A0x476693c04a87a008!2sAv.%20Anita%20Garibaldi%2C%2051%20-%20Seara%2C%20SC%2C%2089770-000!5e0!3m2!1spt-BR!2sbr!4v1694384495464!5m2!1spt-BR!2sbr" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- Seção de Contato -->
+<section id="contato" class="container mt-4">
+  <div class="container">
+      <h2 class="text-center">Contato</h2>
+      <div class="row mt-4">
+          <div class="col-md-6">
+              <!-- Form de Contato -->
+              <form id="formContato" action="./back/mensagem_contato.php" method="get">
+                  <div class="form-group">
+                      <label for="nome">Nome</label>
+                      <input type="text" class="form-control" id="nome" name="nome" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" class="form-control" id="email" name="email" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="mensagem">Mensagem</label>
+                      <textarea class="form-control" id="mensagem" name="mensagem" rows="4" required></textarea>
+                  </div>
+                  <button type="button" class="btn btn-primary" onclick="enviarMensagem()">Enviar</button>
+              </form>
+          </div>
+          <div class="col-md-6">
+              <!-- Informações de Contato -->
+              <h3>Entre em Contato</h3>
+              <p><strong>Ritmo e Movimento</strong></p>
+              <p><strong>Email:</strong> contato@ritmoemov.com</p>
+              <p><strong>Telefone e Whatsapp:</strong> (49) 91234-5678</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+
+<!-- Depoimentos -->
+<section id="depoimentos" class="container mt-4">
+  <div class="container">
+      <h2 class="text-center">Depoimentos de Clientes</h2>
+      <div id="depoimentosContainer" class="row mt-4 justify-content-center"></div>
+  </div>
+</section>
+
+
+<!-- Form para adc novo depoimento -->
+<section id="novoDepoimento" class="container mt-4">
+  <div class="container">
+      <h2 class="text-center">Adicione seu Depoimento</h2>
+      <div class="row mt-4">
+          <div class="col-md-6">
+              <!-- Form de Novo Depoimento -->
+              <form id="formNovoDepoimento" method="get" action="./back/novo_depoimento.php">
+                  <div class="form-group">
+                      <label for="nomeNovoDepoimento">Nome</label>
+                      <input type="text" class="form-control" id="nomeNovoDepoimento" name="nomeNovoDepoimento" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="mensagemNovoDepoimento">Mensagem</label>
+                      <textarea class="form-control" id="mensagemNovoDepoimento" name="mensagemNovoDepoimento" rows="4" required></textarea>
+                  </div>
+                  <button type="button" class="btn btn-primary" onclick="enviarNovoDepoimento()">Enviar Depoimento</button>
+              </form>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<!-- Meu WPP -->
+<div style="text-align: right; margin-top: 20px;">
+    <a href="https://wa.me/5549988600668" target="_blank">
+        <img src="whatsapp.jpg" alt="WhatsApp" width="50" height="50"> Iniciar Conversa no WhatsApp
+    </a>
+</div>
+
+<!-- Rodapé -->
+<footer id="contato" class="bg-dark text-light text-center py-3">
+  <div class="container">
+    <p class="text-center">Desenvolvido por Daniel Felipe Klein - Todos os direitos reservados &copy; 2023</p>
+    <p class="text-center"><strong>Contato:</strong></p>
+    <p class="text-center">E-mail: danifelipek14@gmail.com | Telefone: (49) 98860-0668</p>
+  </div>
+</footer>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
